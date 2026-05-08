@@ -1,0 +1,869 @@
+{
+  "rooms": [
+    {
+      "id": "101bbfc9-be3b-477d-9fe7-f968b92abf02",
+      "code": "M3F8N3",
+      "contentId": "content-5",
+      "contentTitle": "Spider-Man: Into the Spider-Verse",
+      "imdbId": "tt4633694",
+      "hostName": "oño",
+      "hostId": "kwIPea9d7d7KSsYDAAAD",
+      "status": "ended",
+      "currentTime": 0,
+      "createdAt": "2026-05-05T00:57:27.348Z",
+      "endedAt": "2026-05-05T00:57:39.722Z"
+    },
+    {
+      "id": "b2a9705c-23a6-4df3-ae0a-ba77b93a959e",
+      "code": "KG7LQ4",
+      "contentId": "content-1",
+      "contentTitle": "Inception",
+      "imdbId": "tt1375666",
+      "hostName": "hola",
+      "hostId": "",
+      "status": "waiting",
+      "currentTime": 0,
+      "createdAt": "2026-05-05T01:00:33.908Z"
+    },
+    {
+      "id": "c4a59de4-661f-4adb-8d8b-f0d55b69c6a0",
+      "code": "6AHNAU",
+      "contentId": "fmdb-tt21357150",
+      "contentTitle": "Avengers: Doomsday",
+      "imdbId": "tt21357150",
+      "hostName": "hola",
+      "hostId": "",
+      "status": "waiting",
+      "currentTime": 0,
+      "createdAt": "2026-05-05T01:01:22.029Z"
+    },
+    {
+      "id": "e17d5c5a-fb07-4ba9-a4e6-a1ecc14953cf",
+      "code": "8A8DYF",
+      "contentId": "content-1",
+      "contentTitle": "Inception",
+      "imdbId": "tt1375666",
+      "hostName": "mi king",
+      "hostId": "4bRggBuY5S5_RRwfAAAN",
+      "status": "waiting",
+      "currentTime": 0,
+      "createdAt": "2026-05-05T01:02:24.284Z"
+    },
+    {
+      "id": "40f7f96f-d8ad-45d1-83ce-7ae95f6a9994",
+      "code": "2PECBN",
+      "contentId": "content-6",
+      "contentTitle": "The Matrix",
+      "imdbId": "tt0133093",
+      "hostName": "bruce",
+      "hostId": "",
+      "status": "waiting",
+      "currentTime": 0,
+      "createdAt": "2026-05-05T01:06:23.444Z"
+    },
+    {
+      "id": "9cf6c882-696e-450a-b51a-dfc9a0f553e8",
+      "code": "9QSR3R",
+      "contentId": "content-1",
+      "contentTitle": "Inception",
+      "imdbId": "tt1375666",
+      "hostName": "hola",
+      "hostId": "RxdL5VW-jb9rwFXVAAAX",
+      "status": "ended",
+      "currentTime": 10.026667,
+      "createdAt": "2026-05-05T01:07:41.884Z",
+      "endedAt": "2026-05-05T01:08:04.156Z"
+    },
+    {
+      "id": "aedd525e-72c5-48a1-bddf-6a57a1dcdb7b",
+      "code": "X384Z9",
+      "contentId": "content-2",
+      "contentTitle": "The Dark Knight",
+      "imdbId": "tt0468569",
+      "hostName": "hola",
+      "hostId": "MTh0wjP86NDPpBejAAAZ",
+      "status": "playing",
+      "currentTime": 0,
+      "createdAt": "2026-05-05T01:08:11.451Z"
+    },
+    {
+      "id": "6a9039ec-2ea8-4a4d-b45a-aa1d9e934bd4",
+      "code": "KS5DRK",
+      "contentId": "content-1",
+      "contentTitle": "Inception",
+      "imdbId": "tt1375666",
+      "hostName": "TestHost",
+      "hostId": "6HmxLrLFyJ5rPx0fAAAb",
+      "status": "paused",
+      "currentTime": 10.026667,
+      "createdAt": "2026-05-05T01:08:12.410Z"
+    },
+    {
+      "id": "90e36eb7-dbd7-4d17-863f-37d75a9b4b80",
+      "code": "W3LENK",
+      "contentId": "content-8",
+      "contentTitle": "Dune",
+      "imdbId": "tt1160419",
+      "hostName": "hola",
+      "hostId": "",
+      "status": "waiting",
+      "currentTime": 0,
+      "createdAt": "2026-05-05T01:08:27.804Z"
+    },
+    {
+      "id": "16bea424-cacc-4174-9773-e4afe9407c0c",
+      "code": "M3N2VV",
+      "contentId": "fmdb-tt1517268",
+      "contentTitle": "Barbie",
+      "imdbId": "tt1517268",
+      "hostName": "queen",
+      "hostId": "",
+      "status": "paused",
+      "currentTime": 10.026667,
+      "createdAt": "2026-05-05T01:08:49.212Z"
+    },
+    {
+      "id": "524a9b0e-13c9-4277-8de2-6eb402118d45",
+      "code": "YA9VGB",
+      "contentId": "content-5",
+      "contentTitle": "Spider-Man: Into the Spider-Verse",
+      "imdbId": "tt4633694",
+      "hostName": "HOLA",
+      "hostId": "jmyX3a0FXiVLo6cFAAAl",
+      "status": "playing",
+      "currentTime": 0,
+      "createdAt": "2026-05-05T01:09:42.012Z"
+    },
+    {
+      "id": "16e5ad79-0449-441b-98ff-0b0f123fc0f1",
+      "code": "YDK7TP",
+      "contentId": "content-1",
+      "contentTitle": "Inception",
+      "imdbId": "tt1375666",
+      "hostName": "hola",
+      "hostId": "cu3ljvjT9rUwZobmAAAt",
+      "status": "waiting",
+      "currentTime": 0,
+      "createdAt": "2026-05-05T01:12:34.666Z"
+    },
+    {
+      "id": "cc6c4fc9-d547-45a5-b1a4-4df2f23a4e08",
+      "code": "BZATNB",
+      "contentId": "content-4",
+      "contentTitle": "Parasite",
+      "imdbId": "tt6751668",
+      "hostName": "hola",
+      "hostId": "8EtibcFeLaO8OPdkAAA7",
+      "status": "waiting",
+      "currentTime": 0,
+      "createdAt": "2026-05-05T01:15:09.676Z"
+    },
+    {
+      "id": "8cccb39b-2211-4958-97d9-aebdaaa87e43",
+      "code": "27QFLX",
+      "contentId": "content-1",
+      "contentTitle": "Inception",
+      "imdbId": "tt1375666",
+      "hostName": "brucea",
+      "hostId": "",
+      "status": "ended",
+      "currentTime": 0,
+      "createdAt": "2026-05-05T01:40:17.715Z",
+      "endedAt": "2026-05-05T01:40:59.365Z"
+    },
+    {
+      "id": "2411ec85-d27d-4ede-ab0c-0521c33bb745",
+      "code": "JYGKXN",
+      "contentId": "content-5",
+      "contentTitle": "Spider-Man: Into the Spider-Verse",
+      "imdbId": "tt4633694",
+      "hostName": "wasd",
+      "hostId": "",
+      "status": "waiting",
+      "currentTime": 0,
+      "createdAt": "2026-05-05T01:41:04.075Z"
+    },
+    {
+      "id": "2752d067-1af6-474b-a62d-5a260f023bb7",
+      "code": "UL9A4C",
+      "contentId": "content-1",
+      "contentTitle": "Inception",
+      "imdbId": "tt1375666",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "hostName": "HOLA",
+      "hostId": "Y0hRuvZtWQu-yh_NAAAD",
+      "status": "ended",
+      "currentTime": 0,
+      "createdAt": "2026-05-05T01:44:09.893Z",
+      "endedAt": "2026-05-05T01:46:04.042Z"
+    },
+    {
+      "id": "4c99c0c8-415c-40e8-a48a-9980db4a4ced",
+      "code": "S3JSE3",
+      "contentId": "content-1",
+      "contentTitle": "Inception",
+      "imdbId": "tt1375666",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "hostName": "Test User",
+      "hostId": "l0jPpP5pUqkjhAVfAAAH",
+      "status": "ended",
+      "currentTime": 0,
+      "createdAt": "2026-05-05T01:46:02.474Z",
+      "endedAt": "2026-05-05T02:00:07.331Z"
+    },
+    {
+      "id": "a720c12e-db6c-4297-80c1-01f32e0a942e",
+      "code": "54U9UL",
+      "contentId": "content-5",
+      "contentTitle": "Spider-Man: Into the Spider-Verse",
+      "imdbId": "tt4633694",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_.jpg",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "hostName": "bruce",
+      "hostId": "NSjGFOeWqioD0j2bAAAF",
+      "status": "waiting",
+      "currentTime": 0,
+      "createdAt": "2026-05-08T18:51:34.258Z"
+    },
+    {
+      "id": "2510caf9-7ce1-4412-910a-de17528dca96",
+      "code": "CL23CB",
+      "contentId": "content-1",
+      "contentTitle": "Inception",
+      "imdbId": "tt1375666",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "hostName": "hola",
+      "hostId": "",
+      "status": "waiting",
+      "currentTime": 0,
+      "createdAt": "2026-05-08T18:59:47.745Z"
+    },
+    {
+      "id": "d192bd76-54a2-489d-8556-bfcdd2b1045d",
+      "code": "63WSPW",
+      "contentId": "content-5",
+      "contentTitle": "Spider-Man: Into the Spider-Verse",
+      "imdbId": "tt4633694",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_.jpg",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "hostName": "bruce",
+      "hostId": "",
+      "status": "waiting",
+      "currentTime": 0,
+      "createdAt": "2026-05-08T19:00:18.272Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "fe141329-61eb-4059-812c-e3c86900c1f0",
+      "roomId": "e17d5c5a-fb07-4ba9-a4e6-a1ecc14953cf",
+      "name": "mi king",
+      "socketId": "4bRggBuY5S5_RRwfAAAN",
+      "isHost": true,
+      "joinedAt": "2026-05-05T01:02:26.305Z"
+    },
+    {
+      "id": "89b0ce1a-00bd-4da8-8e08-cbcd60eb9f1b",
+      "roomId": "40f7f96f-d8ad-45d1-83ce-7ae95f6a9994",
+      "name": "hola",
+      "socketId": "MRWrPbT2FogWRiQIAAAT",
+      "isHost": false,
+      "joinedAt": "2026-05-05T01:06:54.204Z"
+    },
+    {
+      "id": "212fad84-4143-41ad-a980-ddee0fa4743b",
+      "roomId": "aedd525e-72c5-48a1-bddf-6a57a1dcdb7b",
+      "name": "hola",
+      "socketId": "MTh0wjP86NDPpBejAAAZ",
+      "isHost": true,
+      "joinedAt": "2026-05-05T01:08:13.034Z"
+    },
+    {
+      "id": "dcdf603f-85f1-4469-9813-683a6695b4eb",
+      "roomId": "6a9039ec-2ea8-4a4d-b45a-aa1d9e934bd4",
+      "name": "TestHost",
+      "socketId": "6HmxLrLFyJ5rPx0fAAAb",
+      "isHost": true,
+      "joinedAt": "2026-05-05T01:08:17.387Z"
+    },
+    {
+      "id": "b890685e-191b-4204-9095-1c2f6618a075",
+      "roomId": "524a9b0e-13c9-4277-8de2-6eb402118d45",
+      "name": "HOLA",
+      "socketId": "jmyX3a0FXiVLo6cFAAAl",
+      "isHost": true,
+      "joinedAt": "2026-05-05T01:09:43.663Z"
+    },
+    {
+      "id": "bd57e151-6a43-40a2-8a51-279e614be5bb",
+      "roomId": "524a9b0e-13c9-4277-8de2-6eb402118d45",
+      "name": "hola",
+      "socketId": "SIQ1ipk7XSQnbbu2AAAn",
+      "isHost": false,
+      "joinedAt": "2026-05-05T01:11:23.874Z"
+    },
+    {
+      "id": "8db8dfd5-b39d-48e9-930b-99c0daff192f",
+      "roomId": "16e5ad79-0449-441b-98ff-0b0f123fc0f1",
+      "name": "hola",
+      "socketId": "cu3ljvjT9rUwZobmAAAt",
+      "isHost": true,
+      "joinedAt": "2026-05-05T01:12:36.304Z"
+    },
+    {
+      "id": "75bd8f71-89fd-4290-8254-6668cc033c64",
+      "roomId": "cc6c4fc9-d547-45a5-b1a4-4df2f23a4e08",
+      "name": "hola",
+      "socketId": "Q5sDFHDOF3Ikc-g8AAAv",
+      "isHost": true,
+      "joinedAt": "2026-05-05T01:15:11.693Z"
+    },
+    {
+      "id": "a45c96b8-27b1-4acc-9c81-1b7af8f6a375",
+      "roomId": "a720c12e-db6c-4297-80c1-01f32e0a942e",
+      "name": "bruce",
+      "socketId": "NSjGFOeWqioD0j2bAAAF",
+      "isHost": true,
+      "joinedAt": "2026-05-08T18:59:40.209Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "c5d4aca9-e62e-477d-9148-e737535ddd5d",
+      "roomId": "e17d5c5a-fb07-4ba9-a4e6-a1ecc14953cf",
+      "userId": "4bRggBuY5S5_RRwfAAAN",
+      "userName": "mi king",
+      "text": "hola",
+      "timestamp": "2026-05-05T01:04:20.834Z"
+    },
+    {
+      "id": "3f509be4-3fae-446f-9203-f4f6506c6844",
+      "roomId": "e17d5c5a-fb07-4ba9-a4e6-a1ecc14953cf",
+      "userId": "4bRggBuY5S5_RRwfAAAN",
+      "userName": "mi king",
+      "text": "hola gente waaaaaaaaaaaaaa",
+      "timestamp": "2026-05-05T01:04:29.145Z"
+    },
+    {
+      "id": "b35dbca1-eb8b-41cf-8a97-6760c99d7bbd",
+      "roomId": "16bea424-cacc-4174-9773-e4afe9407c0c",
+      "userId": "9LeZDrUHbX4AhFfOAAAj",
+      "userName": "queen",
+      "text": "waaaaa",
+      "timestamp": "2026-05-05T01:08:56.314Z"
+    },
+    {
+      "id": "338e411a-4f1c-497f-81c0-7a070696c555",
+      "roomId": "16bea424-cacc-4174-9773-e4afe9407c0c",
+      "userId": "9LeZDrUHbX4AhFfOAAAj",
+      "userName": "queen",
+      "text": "xD",
+      "timestamp": "2026-05-05T01:08:58.065Z"
+    },
+    {
+      "id": "b6bcffca-d3ec-459b-adb4-bba0755f4477",
+      "roomId": "d192bd76-54a2-489d-8556-bfcdd2b1045d",
+      "userId": "HhFzbCxXCahuocrbAAAN",
+      "userName": "bruce",
+      "text": "buena la pelicula",
+      "timestamp": "2026-05-08T19:04:52.414Z"
+    }
+  ],
+  "reactions": [
+    {
+      "id": "e2a0915b-3638-41dd-a4f0-33c9d4e23fb9",
+      "roomId": "e17d5c5a-fb07-4ba9-a4e6-a1ecc14953cf",
+      "userId": "4bRggBuY5S5_RRwfAAAN",
+      "userName": "mi king",
+      "type": "like",
+      "timestamp": "2026-05-05T01:02:31.578Z"
+    },
+    {
+      "id": "009d6189-ca6e-4550-920f-95e04fa259d1",
+      "roomId": "e17d5c5a-fb07-4ba9-a4e6-a1ecc14953cf",
+      "userId": "4bRggBuY5S5_RRwfAAAN",
+      "userName": "mi king",
+      "type": "surprised",
+      "timestamp": "2026-05-05T01:02:32.153Z"
+    },
+    {
+      "id": "11984e80-8c49-44b7-ad6d-d1d4747e7ec5",
+      "roomId": "e17d5c5a-fb07-4ba9-a4e6-a1ecc14953cf",
+      "userId": "4bRggBuY5S5_RRwfAAAN",
+      "userName": "mi king",
+      "type": "laugh",
+      "timestamp": "2026-05-05T01:02:32.690Z"
+    },
+    {
+      "id": "478f21a5-0101-466c-ba2a-b50c8150fce5",
+      "roomId": "e17d5c5a-fb07-4ba9-a4e6-a1ecc14953cf",
+      "userId": "4bRggBuY5S5_RRwfAAAN",
+      "userName": "mi king",
+      "type": "bored",
+      "timestamp": "2026-05-05T01:02:33.170Z"
+    },
+    {
+      "id": "76f0a5fb-af2c-4056-9f55-5fafcece4a43",
+      "roomId": "e17d5c5a-fb07-4ba9-a4e6-a1ecc14953cf",
+      "userId": "4bRggBuY5S5_RRwfAAAN",
+      "userName": "mi king",
+      "type": "like",
+      "timestamp": "2026-05-05T01:02:34.481Z"
+    },
+    {
+      "id": "8162996d-6c4a-4b11-87fb-d94331b4f1ae",
+      "roomId": "e17d5c5a-fb07-4ba9-a4e6-a1ecc14953cf",
+      "userId": "4bRggBuY5S5_RRwfAAAN",
+      "userName": "mi king",
+      "type": "like",
+      "timestamp": "2026-05-05T01:02:34.673Z"
+    },
+    {
+      "id": "4535a1e1-da02-45d5-814d-c4924c5020cb",
+      "roomId": "e17d5c5a-fb07-4ba9-a4e6-a1ecc14953cf",
+      "userId": "4bRggBuY5S5_RRwfAAAN",
+      "userName": "mi king",
+      "type": "like",
+      "timestamp": "2026-05-05T01:02:34.850Z"
+    },
+    {
+      "id": "c70f62aa-ee90-49bb-a578-5b6eecc42125",
+      "roomId": "40f7f96f-d8ad-45d1-83ce-7ae95f6a9994",
+      "userId": "8qufkdW246VeXmJzAAAR",
+      "userName": "bruce",
+      "type": "like",
+      "timestamp": "2026-05-05T01:06:29.305Z"
+    },
+    {
+      "id": "6c1ac5bc-fd50-4cdf-8883-3c6c96409308",
+      "roomId": "40f7f96f-d8ad-45d1-83ce-7ae95f6a9994",
+      "userId": "8qufkdW246VeXmJzAAAR",
+      "userName": "bruce",
+      "type": "surprised",
+      "timestamp": "2026-05-05T01:06:29.641Z"
+    },
+    {
+      "id": "dea20c04-edfb-4eb7-b085-58a1418d8197",
+      "roomId": "40f7f96f-d8ad-45d1-83ce-7ae95f6a9994",
+      "userId": "8qufkdW246VeXmJzAAAR",
+      "userName": "bruce",
+      "type": "laugh",
+      "timestamp": "2026-05-05T01:06:29.952Z"
+    },
+    {
+      "id": "9bd755df-fb3b-4d1a-99b6-3ece95aff48f",
+      "roomId": "40f7f96f-d8ad-45d1-83ce-7ae95f6a9994",
+      "userId": "8qufkdW246VeXmJzAAAR",
+      "userName": "bruce",
+      "type": "bored",
+      "timestamp": "2026-05-05T01:06:30.609Z"
+    },
+    {
+      "id": "070f35cb-c898-4b98-a622-c88fc5728696",
+      "roomId": "40f7f96f-d8ad-45d1-83ce-7ae95f6a9994",
+      "userId": "8qufkdW246VeXmJzAAAR",
+      "userName": "bruce",
+      "type": "laugh",
+      "timestamp": "2026-05-05T01:06:31.081Z"
+    },
+    {
+      "id": "c963d2ca-0ab9-4ef6-880d-0fc94bc06372",
+      "roomId": "40f7f96f-d8ad-45d1-83ce-7ae95f6a9994",
+      "userId": "8qufkdW246VeXmJzAAAR",
+      "userName": "bruce",
+      "type": "laugh",
+      "timestamp": "2026-05-05T01:06:31.249Z"
+    },
+    {
+      "id": "7d374afd-6cfc-4274-acfa-b0c0fb0949d6",
+      "roomId": "40f7f96f-d8ad-45d1-83ce-7ae95f6a9994",
+      "userId": "8qufkdW246VeXmJzAAAR",
+      "userName": "bruce",
+      "type": "surprised",
+      "timestamp": "2026-05-05T01:06:31.553Z"
+    },
+    {
+      "id": "ce9e9cc4-2089-4f1f-9e33-f26593592e1c",
+      "roomId": "40f7f96f-d8ad-45d1-83ce-7ae95f6a9994",
+      "userId": "8qufkdW246VeXmJzAAAR",
+      "userName": "bruce",
+      "type": "surprised",
+      "timestamp": "2026-05-05T01:06:31.721Z"
+    },
+    {
+      "id": "4771699f-7eee-4dc6-be39-7dfb0565deac",
+      "roomId": "40f7f96f-d8ad-45d1-83ce-7ae95f6a9994",
+      "userId": "8qufkdW246VeXmJzAAAR",
+      "userName": "bruce",
+      "type": "like",
+      "timestamp": "2026-05-05T01:06:31.969Z"
+    },
+    {
+      "id": "64e6a646-934c-430d-b653-9b19d40aba4a",
+      "roomId": "40f7f96f-d8ad-45d1-83ce-7ae95f6a9994",
+      "userId": "8qufkdW246VeXmJzAAAR",
+      "userName": "bruce",
+      "type": "like",
+      "timestamp": "2026-05-05T01:06:32.177Z"
+    },
+    {
+      "id": "f5eae82f-273f-40c2-9ee8-95c2b99e65ae",
+      "roomId": "40f7f96f-d8ad-45d1-83ce-7ae95f6a9994",
+      "userId": "8qufkdW246VeXmJzAAAR",
+      "userName": "bruce",
+      "type": "like",
+      "timestamp": "2026-05-05T01:06:35.250Z"
+    },
+    {
+      "id": "5a6f0052-e06c-45ad-9dbe-78d33c145b74",
+      "roomId": "40f7f96f-d8ad-45d1-83ce-7ae95f6a9994",
+      "userId": "8qufkdW246VeXmJzAAAR",
+      "userName": "bruce",
+      "type": "like",
+      "timestamp": "2026-05-05T01:06:35.458Z"
+    },
+    {
+      "id": "d70d9d2f-7119-4631-ae61-2b76da1af4ca",
+      "roomId": "40f7f96f-d8ad-45d1-83ce-7ae95f6a9994",
+      "userId": "8qufkdW246VeXmJzAAAR",
+      "userName": "bruce",
+      "type": "like",
+      "timestamp": "2026-05-05T01:06:35.625Z"
+    },
+    {
+      "id": "0fc13fc1-0b99-4b06-8486-37f2c89eccfd",
+      "roomId": "40f7f96f-d8ad-45d1-83ce-7ae95f6a9994",
+      "userId": "8qufkdW246VeXmJzAAAR",
+      "userName": "bruce",
+      "type": "like",
+      "timestamp": "2026-05-05T01:06:35.769Z"
+    },
+    {
+      "id": "13eaa08c-12a9-4d20-8733-e771de10ec18",
+      "roomId": "40f7f96f-d8ad-45d1-83ce-7ae95f6a9994",
+      "userId": "MRWrPbT2FogWRiQIAAAT",
+      "userName": "hola",
+      "type": "like",
+      "timestamp": "2026-05-05T01:07:09.209Z"
+    },
+    {
+      "id": "e584b3a3-9c7b-437d-80d8-0b1ef17ffe21",
+      "roomId": "40f7f96f-d8ad-45d1-83ce-7ae95f6a9994",
+      "userId": "MRWrPbT2FogWRiQIAAAT",
+      "userName": "hola",
+      "type": "surprised",
+      "timestamp": "2026-05-05T01:07:09.840Z"
+    },
+    {
+      "id": "f0cf2df6-8478-42ae-b765-e5fa297db8d9",
+      "roomId": "40f7f96f-d8ad-45d1-83ce-7ae95f6a9994",
+      "userId": "MRWrPbT2FogWRiQIAAAT",
+      "userName": "hola",
+      "type": "surprised",
+      "timestamp": "2026-05-05T01:07:10.008Z"
+    },
+    {
+      "id": "e04b2002-1e79-41cf-9da3-59be88e35f5a",
+      "roomId": "40f7f96f-d8ad-45d1-83ce-7ae95f6a9994",
+      "userId": "MRWrPbT2FogWRiQIAAAT",
+      "userName": "hola",
+      "type": "surprised",
+      "timestamp": "2026-05-05T01:07:10.217Z"
+    },
+    {
+      "id": "f461b953-8882-4f74-9f59-796291301659",
+      "roomId": "16bea424-cacc-4174-9773-e4afe9407c0c",
+      "userId": "9LeZDrUHbX4AhFfOAAAj",
+      "userName": "queen",
+      "type": "like",
+      "timestamp": "2026-05-05T01:09:00.505Z"
+    },
+    {
+      "id": "83b22b7e-d40c-4dda-882f-f5ed95498856",
+      "roomId": "16bea424-cacc-4174-9773-e4afe9407c0c",
+      "userId": "9LeZDrUHbX4AhFfOAAAj",
+      "userName": "queen",
+      "type": "like",
+      "timestamp": "2026-05-05T01:09:00.704Z"
+    },
+    {
+      "id": "469dfe6a-0744-4ae4-b512-cda78bfcef2f",
+      "roomId": "16bea424-cacc-4174-9773-e4afe9407c0c",
+      "userId": "9LeZDrUHbX4AhFfOAAAj",
+      "userName": "queen",
+      "type": "surprised",
+      "timestamp": "2026-05-05T01:09:00.986Z"
+    },
+    {
+      "id": "c9cf9040-1738-41e3-b0b5-63fb420b918b",
+      "roomId": "524a9b0e-13c9-4277-8de2-6eb402118d45",
+      "userId": "jmyX3a0FXiVLo6cFAAAl",
+      "userName": "HOLA",
+      "type": "like",
+      "timestamp": "2026-05-05T01:10:01.424Z"
+    },
+    {
+      "id": "87087b1c-7f8c-424e-b3c4-e97ebf6209ff",
+      "roomId": "524a9b0e-13c9-4277-8de2-6eb402118d45",
+      "userId": "jmyX3a0FXiVLo6cFAAAl",
+      "userName": "HOLA",
+      "type": "surprised",
+      "timestamp": "2026-05-05T01:10:01.865Z"
+    },
+    {
+      "id": "7878e3be-ddf1-459f-b6a0-6c2dadd357db",
+      "roomId": "524a9b0e-13c9-4277-8de2-6eb402118d45",
+      "userId": "jmyX3a0FXiVLo6cFAAAl",
+      "userName": "HOLA",
+      "type": "surprised",
+      "timestamp": "2026-05-05T01:10:02.057Z"
+    },
+    {
+      "id": "e2a2c0cd-f945-4da9-bade-922ad8e226b4",
+      "roomId": "524a9b0e-13c9-4277-8de2-6eb402118d45",
+      "userId": "jmyX3a0FXiVLo6cFAAAl",
+      "userName": "HOLA",
+      "type": "surprised",
+      "timestamp": "2026-05-05T01:10:02.241Z"
+    },
+    {
+      "id": "709b1873-6dac-4307-8309-756f319a41d6",
+      "roomId": "524a9b0e-13c9-4277-8de2-6eb402118d45",
+      "userId": "jmyX3a0FXiVLo6cFAAAl",
+      "userName": "HOLA",
+      "type": "surprised",
+      "timestamp": "2026-05-05T01:10:02.424Z"
+    },
+    {
+      "id": "810d4e5d-13b6-45d7-bc32-86fc89d160fd",
+      "roomId": "524a9b0e-13c9-4277-8de2-6eb402118d45",
+      "userId": "jmyX3a0FXiVLo6cFAAAl",
+      "userName": "HOLA",
+      "type": "surprised",
+      "timestamp": "2026-05-05T01:10:02.616Z"
+    },
+    {
+      "id": "49c3eadf-f521-4fc4-b8b2-91b51cc9f85e",
+      "roomId": "524a9b0e-13c9-4277-8de2-6eb402118d45",
+      "userId": "jmyX3a0FXiVLo6cFAAAl",
+      "userName": "HOLA",
+      "type": "surprised",
+      "timestamp": "2026-05-05T01:10:02.801Z"
+    },
+    {
+      "id": "bc8df737-10b3-42ff-ab43-aeeee32e6bb5",
+      "roomId": "524a9b0e-13c9-4277-8de2-6eb402118d45",
+      "userId": "jmyX3a0FXiVLo6cFAAAl",
+      "userName": "HOLA",
+      "type": "laugh",
+      "timestamp": "2026-05-05T01:10:03.320Z"
+    },
+    {
+      "id": "c7a50096-697e-4fe6-ae81-3c129ec3df40",
+      "roomId": "524a9b0e-13c9-4277-8de2-6eb402118d45",
+      "userId": "jmyX3a0FXiVLo6cFAAAl",
+      "userName": "HOLA",
+      "type": "bored",
+      "timestamp": "2026-05-05T01:10:03.689Z"
+    },
+    {
+      "id": "5ce80b11-6d5e-44f6-a15e-6275a4594fc3",
+      "roomId": "524a9b0e-13c9-4277-8de2-6eb402118d45",
+      "userId": "jmyX3a0FXiVLo6cFAAAl",
+      "userName": "HOLA",
+      "type": "bored",
+      "timestamp": "2026-05-05T01:10:03.872Z"
+    },
+    {
+      "id": "24d67b8d-5d91-4625-8be2-336b48231146",
+      "roomId": "524a9b0e-13c9-4277-8de2-6eb402118d45",
+      "userId": "jmyX3a0FXiVLo6cFAAAl",
+      "userName": "HOLA",
+      "type": "bored",
+      "timestamp": "2026-05-05T01:10:04.072Z"
+    },
+    {
+      "id": "6b28ca59-ba2c-48e9-ae5f-aa5e1fec1e03",
+      "roomId": "524a9b0e-13c9-4277-8de2-6eb402118d45",
+      "userId": "jmyX3a0FXiVLo6cFAAAl",
+      "userName": "HOLA",
+      "type": "bored",
+      "timestamp": "2026-05-05T01:10:04.258Z"
+    },
+    {
+      "id": "e2d3c355-a00b-4ada-be64-e2dd079b5d87",
+      "roomId": "8cccb39b-2211-4958-97d9-aebdaaa87e43",
+      "userId": "_XKK8qnW4neQ9w0CAABD",
+      "userName": "hola",
+      "type": "like",
+      "timestamp": "2026-05-05T01:40:46.657Z"
+    },
+    {
+      "id": "46aaa9b0-eca5-4dba-abad-fcb750907fe0",
+      "roomId": "8cccb39b-2211-4958-97d9-aebdaaa87e43",
+      "userId": "puZI7W4_YrBVZzdjAAA_",
+      "userName": "brucea",
+      "type": "bored",
+      "timestamp": "2026-05-05T01:40:47.712Z"
+    },
+    {
+      "id": "fa94b681-326c-4aaa-a7a0-94fbb36eaf3c",
+      "roomId": "8cccb39b-2211-4958-97d9-aebdaaa87e43",
+      "userId": "puZI7W4_YrBVZzdjAAA_",
+      "userName": "brucea",
+      "type": "like",
+      "timestamp": "2026-05-05T01:40:48.128Z"
+    },
+    {
+      "id": "b2660293-deb6-4806-91bf-ca3a4b2584f5",
+      "roomId": "8cccb39b-2211-4958-97d9-aebdaaa87e43",
+      "userId": "puZI7W4_YrBVZzdjAAA_",
+      "userName": "brucea",
+      "type": "like",
+      "timestamp": "2026-05-05T01:40:48.473Z"
+    },
+    {
+      "id": "ffe60198-d78c-4457-b145-4e4c7bc96f91",
+      "roomId": "8cccb39b-2211-4958-97d9-aebdaaa87e43",
+      "userId": "puZI7W4_YrBVZzdjAAA_",
+      "userName": "brucea",
+      "type": "like",
+      "timestamp": "2026-05-05T01:40:48.672Z"
+    },
+    {
+      "id": "4fc1bf4b-a048-4d45-aee1-294adcf2d32f",
+      "roomId": "8cccb39b-2211-4958-97d9-aebdaaa87e43",
+      "userId": "puZI7W4_YrBVZzdjAAA_",
+      "userName": "brucea",
+      "type": "like",
+      "timestamp": "2026-05-05T01:40:48.880Z"
+    },
+    {
+      "id": "680c387a-b067-46dd-a861-c4f46a3bd875",
+      "roomId": "8cccb39b-2211-4958-97d9-aebdaaa87e43",
+      "userId": "puZI7W4_YrBVZzdjAAA_",
+      "userName": "brucea",
+      "type": "like",
+      "timestamp": "2026-05-05T01:40:49.088Z"
+    },
+    {
+      "id": "d09ee1ae-42c5-4627-ae95-6138aba6bf10",
+      "roomId": "8cccb39b-2211-4958-97d9-aebdaaa87e43",
+      "userId": "puZI7W4_YrBVZzdjAAA_",
+      "userName": "brucea",
+      "type": "like",
+      "timestamp": "2026-05-05T01:40:49.960Z"
+    },
+    {
+      "id": "b862c925-00e3-4df4-98bf-15c02542296d",
+      "roomId": "8cccb39b-2211-4958-97d9-aebdaaa87e43",
+      "userId": "puZI7W4_YrBVZzdjAAA_",
+      "userName": "brucea",
+      "type": "like",
+      "timestamp": "2026-05-05T01:40:50.145Z"
+    },
+    {
+      "id": "bfc81e72-d334-4a5e-9445-8cadcff57f5b",
+      "roomId": "8cccb39b-2211-4958-97d9-aebdaaa87e43",
+      "userId": "puZI7W4_YrBVZzdjAAA_",
+      "userName": "brucea",
+      "type": "like",
+      "timestamp": "2026-05-05T01:40:50.345Z"
+    },
+    {
+      "id": "a6229969-3950-42e3-8a04-83ad84b086bf",
+      "roomId": "8cccb39b-2211-4958-97d9-aebdaaa87e43",
+      "userId": "puZI7W4_YrBVZzdjAAA_",
+      "userName": "brucea",
+      "type": "surprised",
+      "timestamp": "2026-05-05T01:40:50.704Z"
+    },
+    {
+      "id": "09b7a2cd-953b-4af2-91bc-330a7a6c0c30",
+      "roomId": "8cccb39b-2211-4958-97d9-aebdaaa87e43",
+      "userId": "puZI7W4_YrBVZzdjAAA_",
+      "userName": "brucea",
+      "type": "laugh",
+      "timestamp": "2026-05-05T01:40:51.065Z"
+    },
+    {
+      "id": "d620ae2b-1a53-44c0-8bd8-9fb717201086",
+      "roomId": "8cccb39b-2211-4958-97d9-aebdaaa87e43",
+      "userId": "_XKK8qnW4neQ9w0CAABD",
+      "userName": "hola",
+      "type": "bored",
+      "timestamp": "2026-05-05T01:40:52.272Z"
+    },
+    {
+      "id": "fc4df8d7-c044-408d-892f-29b82e8c8034",
+      "roomId": "8cccb39b-2211-4958-97d9-aebdaaa87e43",
+      "userId": "_XKK8qnW4neQ9w0CAABD",
+      "userName": "hola",
+      "type": "bored",
+      "timestamp": "2026-05-05T01:40:52.440Z"
+    },
+    {
+      "id": "5c56e3cc-7c16-4bdd-920b-5e5dbab4b6d2",
+      "roomId": "8cccb39b-2211-4958-97d9-aebdaaa87e43",
+      "userId": "_XKK8qnW4neQ9w0CAABD",
+      "userName": "hola",
+      "type": "surprised",
+      "timestamp": "2026-05-05T01:40:52.816Z"
+    },
+    {
+      "id": "07162c9f-6431-4cf3-9c56-8ebbfdee2cb3",
+      "roomId": "8cccb39b-2211-4958-97d9-aebdaaa87e43",
+      "userId": "_XKK8qnW4neQ9w0CAABD",
+      "userName": "hola",
+      "type": "surprised",
+      "timestamp": "2026-05-05T01:40:52.985Z"
+    },
+    {
+      "id": "12caf34f-4d55-4bf9-8b68-27489333d9d5",
+      "roomId": "8cccb39b-2211-4958-97d9-aebdaaa87e43",
+      "userId": "puZI7W4_YrBVZzdjAAA_",
+      "userName": "brucea",
+      "type": "laugh",
+      "timestamp": "2026-05-05T01:40:54.096Z"
+    },
+    {
+      "id": "c5b00065-4aa5-4819-922f-e04b27ad6c76",
+      "roomId": "8cccb39b-2211-4958-97d9-aebdaaa87e43",
+      "userId": "puZI7W4_YrBVZzdjAAA_",
+      "userName": "brucea",
+      "type": "laugh",
+      "timestamp": "2026-05-05T01:40:54.337Z"
+    },
+    {
+      "id": "8ded7851-f8f0-442e-aade-82f90d7ee846",
+      "roomId": "8cccb39b-2211-4958-97d9-aebdaaa87e43",
+      "userId": "puZI7W4_YrBVZzdjAAA_",
+      "userName": "brucea",
+      "type": "laugh",
+      "timestamp": "2026-05-05T01:40:54.537Z"
+    }
+  ],
+  "ratings": [
+    {
+      "id": "e2082548-fbb6-4ff6-b607-372661a17f5b",
+      "roomId": "8cccb39b-2211-4958-97d9-aebdaaa87e43",
+      "userId": "anonymous",
+      "userName": "brucea",
+      "score": 1,
+      "comment": "sad",
+      "timestamp": "2026-05-05T01:41:10.187Z"
+    },
+    {
+      "id": "c3a10cdb-306d-4518-bce1-245910ed30a9",
+      "roomId": "2752d067-1af6-474b-a62d-5a260f023bb7",
+      "userId": "anonymous",
+      "userName": "HOLA",
+      "score": 5,
+      "comment": "xD",
+      "timestamp": "2026-05-05T01:46:02.531Z"
+    }
+  ]
+}
