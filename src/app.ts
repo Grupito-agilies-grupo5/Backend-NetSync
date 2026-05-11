@@ -7,6 +7,7 @@ import cors from 'cors';
 import { roomRoutes } from './routes/roomRoutes';
 import { metricRoutes } from './routes/metricRoutes';
 import { fmdbRoutes } from './routes/fmdbRoutes';
+import { ollamaRoutes } from './routes/ollamaRoutes';
 
 const app = express();
 
@@ -22,6 +23,7 @@ app.use(express.json());
 app.use('/api', roomRoutes);
 app.use('/api', metricRoutes);
 app.use('/api', fmdbRoutes);
+app.use('/api', ollamaRoutes);
 
 // Health check
 app.get('/api/health', (_req, res) => {

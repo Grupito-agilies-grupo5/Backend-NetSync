@@ -6,7 +6,9 @@
 
 ## 1. Stack Tecnológico
 
-El proyecto está estructurado como una arquitectura cliente-servidor moderna:
+El proyecto está estructurado 
+
+como una arquitectura cliente-servidor moderna:
 
 **Frontend (Cliente):**
 - **Framework:** React con TypeScript, construido con Vite.
