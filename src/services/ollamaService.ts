@@ -1,13 +1,12 @@
 // ============================================
-// NetSync Backend - Ollama AI Service
+// NetSync Backend - AI Service (Groq cloud API)
 // ============================================
 
 import { getMetrics } from './metricService';
 import { contentCatalog } from '../data/content';
 import { db } from '../database';
 
-const OLLAMA_BASE_URL = process.env.OLLAMA_URL || 'http://desktop-fufpeoh:11434';
-const OLLAMA_MODEL = process.env.OLLAMA_MODEL || 'gemma4:e4b';
+const GROQ_BASE_URL = 'https://api.groq.com/openai/v1/chat/completions';
 
 /**
  * Build a concise system prompt to minimize model thinking time.
@@ -65,50 +64,59 @@ export interface OllamaStreamCallback {
 }
 
 /**
- * Send a message to Ollama using /api/chat and stream the response.
- * gemma4:e4b emits thinking tokens first, then content tokens.
- * We notify the client when thinking starts, and stream only content tokens.
+ * Send a message to Groq's OpenAI-compatible /chat/completions endpoint
+ * and stream the response as Server-Sent Events.
  */
 export async function chatWithOllama(
   userMessage: string,
   callback: OllamaStreamCallback
 ): Promise<void> {
+  const groqApiKey = process.env.GROQ_API_KEY || '';
+  const groqModel = process.env.GROQ_MODEL || 'llama-3.3-70b-versatile';
+
+  if (!groqApiKey) {
+    callback.onError('Falta configurar GROQ_API_KEY en las variables de entorno del servidor.');
+    return;
+  }
+
   const systemPrompt = buildSystemPrompt();
 
   try {
-    const response = await fetch(`${OLLAMA_BASE_URL}/api/chat`, {
+    const response = await fetch(GROQ_BASE_URL, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${groqApiKey}`,
+      },
       body: JSON.stringify({
-        model: OLLAMA_MODEL,
+        model: groqModel,
         messages: [
           { role: 'system', content: systemPrompt },
           { role: 'user', content: userMessage },
         ],
         stream: true,
-        options: {
-          temperature: 0.8,
-          top_p: 0.9,
-          num_predict: 1024,
-        },
+        temperature: 0.8,
+        top_p: 0.9,
+        max_tokens: 1024,
       }),
     });
 
     if (!response.ok) {
       const errorText = await response.text();
-      callback.onError(`Error de Ollama (${response.status}): ${errorText}`);
+      callback.onError(`Error de Groq (${response.status}): ${errorText}`);
       return;
     }
 
     if (!response.body) {
-      callback.onError('No se recibió body en la respuesta de Ollama');
+      callback.onError('No se recibió body en la respuesta de Groq');
       return;
     }
+
+    callback.onThinking();
 
     const reader = response.body.getReader();
     const decoder = new TextDecoder();
     let buffer = '';
-    let thinkingNotified = false;
 
     while (true) {
       const { done, value } = await reader.read();
@@ -119,25 +127,19 @@ export async function chatWithOllama(
       buffer = lines.pop() || '';
 
       for (const line of lines) {
-        if (!line.trim()) continue;
+        const trimmed = line.trim();
+        if (!trimmed.startsWith('data:')) continue;
+
+        const payload = trimmed.slice(5).trim();
+        if (payload === '[DONE]') {
+          callback.onDone();
+          return;
+        }
+
         try {
-          const json = JSON.parse(line);
-
-          // Notify thinking phase (only once)
-          if (json.message?.thinking && !thinkingNotified) {
-            thinkingNotified = true;
-            callback.onThinking();
-          }
-
-          // Stream content tokens to client
-          if (json.message?.content) {
-            callback.onToken(json.message.content);
-          }
-
-          if (json.done) {
-            callback.onDone();
-            return;
-          }
+          const json = JSON.parse(payload);
+          const token = json.choices?.[0]?.delta?.content;
+          if (token) callback.onToken(token);
         } catch {
           // Skip malformed JSON
         }
@@ -146,10 +148,6 @@ export async function chatWithOllama(
 
     callback.onDone();
   } catch (err: any) {
-    callback.onError(
-      err.code === 'ECONNREFUSED'
-        ? 'No se pudo conectar con Ollama. Verifica que el servicio esté corriendo en ' + OLLAMA_BASE_URL
-        : `Error de conexión: ${err.message}`
-    );
+    callback.onError(`Error de conexión con Groq: ${err.message}`);
   }
 }

@@ -8,3 +8,11 @@ services:
     envVars:
       - key: NODE_VERSION
         value: 20.18.0
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_MODEL
+        value: llama-3.3-70b-versatile
+      - key: CORS_ORIGIN
+        sync: false
+      - key: OMDB_API_KEY
+        sync: false
